@@ -1,0 +1,35 @@
+</html>
+<head>
+    <font face="Trebuchet" color="white">
+    <script language="JavaScript">
+    function greeting()
+    {
+    var name = prompt("Type your name);
+    document.fm1.questions.value = "Welcome, "+name;
+    document.all.userName.style.visibility = "visible";
+    }
+    </script>
+</head>
+<body>
+<font face="Trebuchet" color="white">
+<center>
+<h1> Nature </h1>
+
+    <p>Click here to <a href= "index.html" > return to my home page. </a>
+<br/><br/>
+
+<img src= "images/aPicture.jpg" width="200"/>
+
+<br/><br/>
+<form name= "fm1">
+    <div id=UserName style="visibility:hidden;">
+        <! This is a textbox in which is hidden until the user clicks the button >
+        <input type="text" name="question" size="40" />
+    </div>
+    <br/><br/>
+    <input type= "button" value="welcome" onClick="greeting()"/>
+</form>
+</center> 
+<body bgcolor = "grey">
+    
+</html>
